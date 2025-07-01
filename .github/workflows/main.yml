@@ -18,6 +18,7 @@ jobs:
 
 
   job2:
+    needs: job1
     runs-on: ubuntu-24.04
     steps:
     - name: Execute set of commands
