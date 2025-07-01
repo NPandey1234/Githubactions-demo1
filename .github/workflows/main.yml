@@ -9,15 +9,15 @@
 
 name: workflow1-runs linux commands
 on: workflow_dispatch
-  jobs:     
-    job1:
+jobs:     
+  job1:
     runs-on: ubuntu-latest
     steps:
      - name: Execute a linux command
        run: echo "Hello All"
 
 
-   job2:
+  job2:
     runs-on: ubuntu-24.04
     steps:
     - name: Execute set of commands
